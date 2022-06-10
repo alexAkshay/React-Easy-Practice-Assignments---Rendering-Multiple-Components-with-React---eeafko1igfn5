@@ -1,11 +1,13 @@
 import React, {Component, useState} from "react";
+import Heading from "./components/Heading";
+import Descreption from "./components/Descreption";
 import '../styles/App.css';
 
 const App = () => {
   return (
     <div id="main">
-    <h1 data-ns-test="project-name">Hiii</h1>
-    <p data-ns-test="project-description"> hiiiiiiiiiiiiiiiiiiiiiiiiii</p>
+    <Headng data-ns-test="project-name"/>
+    <Descreption data-ns-test="project-description"/> 
     </div>
   )
 }
